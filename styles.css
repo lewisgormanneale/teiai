@@ -29,7 +29,7 @@ header {
 .logo h2 {
     display: flex;
     font-size: 32px;
-    color: white;
+    color: #f9faf8;
     font-style: italic;
     margin-left: 20px;
 }
@@ -48,7 +48,7 @@ nav ul {
 
 a {
     text-decoration: none;
-    color: #a3c4f9;
+    color: #E5E7EB
 }
 
 #intro {
@@ -56,6 +56,15 @@ a {
     justify-content: center;
     flex-direction: column;
     height: 900px;
+}
+
+#intro button {
+    background-color: #f7f8f9;
+    border: none;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 #welcome {
@@ -68,22 +77,102 @@ a {
 
 #welcome h1 {
     font-size: 48px;
+    color: #f9faf8;
 }
 
-#welcome button {
-
+#welcome p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #E5E7EB
 }
 
 #activities {
     background-color: black;
     color: white;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
 }
 
 .card {
-    max-width: 300px;
+    text-align: center;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    min-width: 100%;
+}
+
+#testimonials {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote, .quote-source {
+    width: 60%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #E5E7EB;
+}
+
+.signup-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: rgb(36, 53, 54);
+    margin: 36px;
+    padding: 18px;
+    gap: 32px;
+}
+
+.signup-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.signup-info p {
+    margin-top: 0px;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.signup-button {
+    background-color: #f7f8f9;
+    border: none;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 24px;
 }
 
 footer {
     background-color: grey;
+    font-size: 12px;
 }
