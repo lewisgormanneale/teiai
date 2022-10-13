@@ -8,10 +8,9 @@ body {
 }
 
 #intro, header {
-    background: url(./images/tsukada-kazuhiro-cruise-ship.jpg) no-repeat center center fixed;
+    background: url(./images/sebastian-herrmann-a9ZXq-Yd6-k-unsplash.jpg) no-repeat center center fixed;
     background-size: cover;
     color: white;
-    height: 500px;
 }
 
 header {
@@ -19,7 +18,7 @@ header {
     justify-content: space-between;
     padding: 8px;
     flex-wrap: wrap;
-    height: 100px;
+    min-height: 10vh;
 }
 
 .logo {
@@ -53,9 +52,10 @@ a {
 
 #intro {
     display: flex;
+    align-items: flex-end;
     justify-content: center;
     flex-direction: column;
-    height: 900px;
+    min-height: 90vh;
 }
 
 #intro button {
@@ -68,7 +68,7 @@ a {
 }
 
 #welcome {
-    margin-left: 40px;
+    margin-right: 20px;
     flex-wrap: wrap;
     width: 40%;
     min-width: 300px;
@@ -175,4 +175,10 @@ a {
 footer {
     background-color: grey;
     font-size: 12px;
+}
+
+footer p {
+    background-color: grey;
+    font-size: 12px;
+    margin-left: 20px;
 }
