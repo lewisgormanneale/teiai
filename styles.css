@@ -5,6 +5,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 #intro, header {
@@ -173,12 +174,30 @@ a {
 }
 
 footer {
-    background-color: grey;
-    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: rgb(38, 38, 38);
+    padding: 0px 20px;
 }
 
-footer p {
-    background-color: grey;
-    font-size: 12px;
-    margin-left: 20px;
+footer > p {
+    color: rgb(199, 199, 199);
+    font-size: 13px;
 }
+
+footer > p > a:link {
+color: rgb(217, 0, 0);
+}
+
+footer > p > a:visited {
+color: rgb(0, 141, 0);
+}
+
+footer > p > a:hover {
+color: rgb(188, 0, 94);
+}
+
+footer > p > a:active {
+color: rgb(43, 43, 255);
+} 
