@@ -176,14 +176,26 @@ a {
 footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     box-sizing: border-box;
     background-color: rgb(38, 38, 38);
     padding: 0px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+footer > p:first-of-type {
+    text-align: left;
+}
+
+footer > p:nth-of-type(3) {
+    text-align: right;
 }
 
 footer > p {
     color: rgb(199, 199, 199);
     font-size: 13px;
+    width: 33%;
 }
 
 footer > p > a:link {
