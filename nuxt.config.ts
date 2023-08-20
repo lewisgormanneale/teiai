@@ -6,5 +6,10 @@ export default defineNuxtConfig({
       "Libre Baskerville": true,
     },
   },
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts", "nuxt-icon"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/google-fonts",
+    "nuxt-icon",
+    "@nuxt/image",
+  ],
 });
