@@ -1,10 +1,22 @@
 <template>
   <div class="w-full flex justify-between overflow-y-visible max-h-screen">
-    <div class="w-full  mt-10" style="margin-left: -120px">
-      <nuxt-img
-        class="z-20 w-full bg-yellow-500"
-        src="teiai-logo-b-transparent.svg"
-      />
+    <div class="w-2/3 mt-10" style="margin-left: -120px">
+      <video
+        autoplay
+        loop
+        muted
+        playsinline
+        class="w-full object-initial"
+        style="
+          mask-image: url(teiai-logo-w.svg);
+          mask-repeat: no-repeat;
+          mask-size: cover;
+          width: 100%;
+        "
+      >
+        <source src="gold.webm" type="video/webm" />
+        <source src="gold.mp4" type="video/mp4" />
+      </video>
     </div>
     <div
       class="flex flex-col justify-evenly items-end gap-4 z-10 w-1/3 px-2 sm:pr-5 transition-all"
@@ -12,21 +24,21 @@
       <div class="flex flex-col justify-center items-end gap-2 w-full pr-4">
         <span
           class="text-2xl sm:text-4xl md:text-5xl transition-all fade-in"
-          style="animation-delay: 0.5s"
+          style="animation-delay: 0.8s"
           >SECURING</span
         >
         <span
           class="text-2xl sm:text-4xl md:text-5xl transition-all fade-in"
-          style="animation-delay: 1s"
+          style="animation-delay: 1.6s"
           >YOUR</span
         >
         <span
           class="text-2xl sm:text-4xl md:text-5xl transition-all fade-in text-yellow-500"
-          style="animation-delay: 1.5s"
+          style="animation-delay: 2.4s"
           >FUTURE</span
         >
       </div>
-      <div class="mr-8 fade-in" style="animation-delay: 2.5s">
+      <div class="mr-8 fade-in" style="animation-delay: 4s">
         <Icon name="ph:arrow-down-bold" color="white" font-size="32px" />
       </div>
     </div>
@@ -87,8 +99,8 @@
 <style scoped>
 .fade-in {
   opacity: 0;
-  animation: fadeIn 0.5s ease-in-out forwards;
-  animation-delay: 0.5s;
+  animation: fadeIn 0.8s ease-in-out forwards;
+  animation-delay: 0.8s;
 }
 
 @keyframes fadeIn {
