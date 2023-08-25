@@ -45,38 +45,41 @@
       </div>
     </div>
   </div>
-  <div class="w-full flex flex-col items-end z-10 px-2 sm:pr-5">
+  <div class="w-full flex flex-col items-end z-10 px-4 sm:pr-8 gap-20">
     <div class="flex flex-col items-end gap-2 px-2">
       <span class="text-2xl sm:text-4xl md:text-5xl transition-all"
         >ABOUT TEIAI</span
       >
 
       <div class="w-96 h-px bg-white mb-6"></div>
-    </div>
-    <div
-      class="flex flex-col gap-5 items-end w-full sm:w-2/3 lg:w-1/3 transition-all mb-5"
-    >
-      <p class="text-right">
-        Teiai Group - a dynamic financial consultancy dedicated to helping
-        clients navigate the complexities of modern finance. At Teiai, we value
-        discretion and professionalism, and aim to offer solutions that maximize
-        our clients' financial potential.
-      </p>
-      <p class="text-right">
-        Join us in experiencing the dedication and excellence that define
-        Teiai's approach to finance.
-      </p>
-
-      <a
-        href="/about"
-        class="bg-yellow-500 text-black py-2 px-4 hover:bg-yellow-600 transition-all mr-2"
+      <div
+        class="flex flex-col gap-5 items-end w-full sm:w-2/3 lg:w-1/3 transition-all"
       >
-        LEARN MORE
-      </a>
+        <p class="text-right w-7/8">
+          TEIAI GROUP - a dynamic financial consultancy dedicated to helping our
+          clients navigate the complexities of modern finance.
+        </p>
+        <p class="w-7/8">
+          At Teiai, we value discretion and professionalism, and aim to offer
+          solutions that maximize our clients' financial potential.
+        </p>
+        <p class="text-right w-7/8">
+          Join us in experiencing the dedication and excellence that define
+          Teiai's approach to finance.
+        </p>
+
+        <a
+          href="/about"
+          class="bg-yellow-500 text-black py-2 px-4 hover:bg-yellow-600 transition-all mr-2"
+        >
+          LEARN MORE
+        </a>
+      </div>
     </div>
+
     <div class="flex flex-col items-end gap-2 mb-5">
       <span class="text-2xl sm:text-4xl md:text-5xl transition-all"
-        >WHAT WE OFFER</span
+        >SERVICES</span
       >
       <div class="w-96 h-px bg-white mb-6"></div>
       <div class="flex w-full">
