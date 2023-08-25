@@ -11,7 +11,9 @@
           mask-image: url(teiai-logo-w.svg);
           mask-repeat: no-repeat;
           mask-size: cover;
-          width: 100%;
+          -webkit-mask-image: url(teiai-logo-w.svg);
+          -webkit-mask-repeat: no-repeat;
+          -webkit-mask-size: cover;
         "
       >
         <source src="gold.webm" type="video/webm" />
