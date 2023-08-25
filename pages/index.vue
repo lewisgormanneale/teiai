@@ -6,7 +6,7 @@
         loop
         muted
         playsinline
-        class="w-full object-initial"
+        class="w-full object-initial transition-all fade-in"
         style="
           mask-image: url(teiai-logo-w.svg);
           mask-repeat: no-repeat;
@@ -16,7 +16,7 @@
           -webkit-mask-size: cover;
         "
       >
-        <source src="gold.webm" type="video/webm" />
+        <source src="gold2.webm" type="video/webm" />
         <source src="gold.mp4" type="video/mp4" />
       </video>
     </div>
@@ -47,31 +47,36 @@
   </div>
   <div class="w-full flex flex-col items-end z-10 px-2 sm:pr-5">
     <div class="flex flex-col items-end gap-2 px-2">
-      <span class="text-2xl sm:text-4xl md:text-5xl transition-all">ABOUT</span>
       <span class="text-2xl sm:text-4xl md:text-5xl transition-all"
-        >TEIAI GROUP</span
+        >ABOUT TEIAI</span
       >
+
       <div class="w-96 h-px bg-white mb-6"></div>
     </div>
-    <div class="w-full sm:w-2/3 lg:w-1/3 transition-all mb-5">
-      <p class="text-right mb-5">
+    <div
+      class="flex flex-col gap-5 items-end w-full sm:w-2/3 lg:w-1/3 transition-all mb-5"
+    >
+      <p class="text-right">
         Teiai Group - a dynamic financial consultancy dedicated to helping
-        clients navigate the complexities of modern finance. Under the visionary
-        leadership of President Kazutaka Hyōdō, Teiai Group has evolved to offer
-        a range of services that include financial advice, innovative lending
-        solutions, and exclusive events for our esteemed clientele.
+        clients navigate the complexities of modern finance. At Teiai, we value
+        discretion and professionalism, and aim to offer solutions that maximize
+        our clients' financial potential.
       </p>
       <p class="text-right">
-        At Teiai, we value discretion and professionalism, and aim to offer
-        solutions that maximize our clients' financial potential. Join us in
-        experiencing the dedication and excellence that define Teiai's approach
-        to finance.
+        Join us in experiencing the dedication and excellence that define
+        Teiai's approach to finance.
       </p>
-    </div>
 
+      <a
+        href="/about"
+        class="bg-yellow-500 text-black py-2 px-4 hover:bg-yellow-600 transition-all mr-2"
+      >
+        LEARN MORE
+      </a>
+    </div>
     <div class="flex flex-col items-end gap-2 mb-5">
       <span class="text-2xl sm:text-4xl md:text-5xl transition-all"
-        >SOLUTIONS</span
+        >WHAT WE OFFER</span
       >
       <div class="w-96 h-px bg-white mb-6"></div>
       <div class="flex w-full">
@@ -83,7 +88,7 @@
 
     <div class="flex flex-col items-end gap-2 mb-5">
       <span class="text-2xl sm:text-4xl md:text-5xl transition-all"
-        >WHO WE ARE</span
+        >MEET THE TEAM</span
       >
       <div class="w-96 h-px bg-white mb-6"></div>
       <nuxt-img src="teiai-banner.jpg" format="webp"></nuxt-img>
@@ -102,7 +107,6 @@
 .fade-in {
   opacity: 0;
   animation: fadeIn 0.8s ease-in-out forwards;
-  animation-delay: 0.8s;
 }
 
 @keyframes fadeIn {
