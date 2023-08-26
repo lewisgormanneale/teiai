@@ -25,7 +25,9 @@ export default defineNuxtConfig({
       "Libre Baskerville": true,
     },
   },
-
+  nitro: {
+    compressPublicAssets: true,
+  },
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
