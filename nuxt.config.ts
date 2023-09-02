@@ -20,9 +20,13 @@ export default defineNuxtConfig({
   },
   css: ["@/assets/css/main.css"],
   devtools: { enabled: true },
+  image: {
+    dir: "public/images",
+  },
   googleFonts: {
     families: {
       "Libre Baskerville": true,
+      Montserrat: true,
     },
   },
   nitro: {

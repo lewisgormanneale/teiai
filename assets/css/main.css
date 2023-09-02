@@ -1,17 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: black;
-  color: white;
-  font-family: "Libre Baskerville", serif;
+@layer base {
+  html {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+    background-color: black;
+  }
 }
 
 .fade-in {

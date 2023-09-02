@@ -6,9 +6,9 @@
     <p>(帝愛 lit. imperial love)</p>
     <div class="flex gap-10">
       <NuxtLink href="/about">About</NuxtLink>
-      <NuxtLink href="/services">Services</NuxtLink>
+      <NuxtLink href="/operations">Operations</NuxtLink>
       <NuxtLink href="/team">Team</NuxtLink>
-      <NuxtLink href="/newsroom">Newsroom</NuxtLink>
+      <NuxtLink href="/news">Newsroom</NuxtLink>
     </div>
   </footer>
 </template>

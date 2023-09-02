@@ -7,6 +7,15 @@ export default {
         primary: colors.blue,
       },
     },
+    fontFamily: {
+      sans: ["Montserrat", "sans-serif"],
+      serif: ["Libre Baskerville", "serif"],
+    },
+  },
+  variants: {
+    extend: {
+      display: ["group-hover"],
+    },
   },
   content: [],
 };
