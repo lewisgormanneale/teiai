@@ -9,7 +9,7 @@
     >
       <div class="flex flex-wrap w-full sm:w-1/3 h-full">
         <NuxtLink
-          to="about"
+          to="error"
           class="group flex flex-col items-center justify-center transition-all w-full h-1/2 text-center overflow-hidden relative"
           style="
             background-image: url('images/operations/building.webp');
@@ -27,7 +27,7 @@
           </div>
         </NuxtLink>
         <NuxtLink
-          to="about"
+          to="error"
           class="group flex flex-col items-center justify-center transition-all w-full h-1/2 text-center overflow-hidden relative"
           style="
             background-image: url('images/operations/underground-mine.webp');
@@ -47,7 +47,7 @@
       </div>
       <div class="flex flex-wrap w-full sm:w-1/3 h-full">
         <NuxtLink
-          to="about"
+          to="error"
           class="group flex flex-col items-center justify-center transition-all w-full h-full text-center overflow-hidden relative"
           style="
             background-image: url('images/operations/yen.webp');
@@ -67,7 +67,7 @@
       </div>
       <div class="flex flex-wrap w-full sm:w-1/3 h-full">
         <NuxtLink
-          to="about"
+          to="error"
           class="group flex flex-col items-center justify-center transition-all w-full h-1/2 text-center overflow-hidden relative"
           style="
             background-image: url('images/operations/cruise-ship.webp');
@@ -85,7 +85,7 @@
           </div>
         </NuxtLink>
         <NuxtLink
-          to="about"
+          to="error"
           class="group flex flex-col items-center justify-center transition-all w-full h-1/2 text-center overflow-hidden relative"
           style="
             background-image: url('images/operations/pachinko.webp');

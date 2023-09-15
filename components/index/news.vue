@@ -15,7 +15,7 @@
       <Article
         title="MANHUNT ONGOING"
         description="Teiai Group is currently seeking the whereabouts of the following individuals"
-        href="/careers"
+        href="/error"
         button-text="Learn More"
         image-src="news/wanted-poster.webp"
         image-alt="Wanted Poster"

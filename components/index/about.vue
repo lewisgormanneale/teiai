@@ -17,7 +17,7 @@
         Teiai's approach to finance.
       </p>
 
-      <Button href="/about" text="Learn More" />
+      <Button href="/error" text="Learn More" />
     </div>
   </div>
 </template>

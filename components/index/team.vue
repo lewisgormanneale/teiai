@@ -15,7 +15,7 @@
       <Article
         title="CAREERS"
         description="Join Teiai Group today!"
-        href="/careers"
+        href="/error"
         button-text="Learn More"
         image-src="team/hyodo-resting.webp"
         image-alt="Blacksuits Lineup"
@@ -23,7 +23,7 @@
       <Article
         title="LEADERSHIP"
         description="Board Members and Executives"
-        href="/leadership"
+        href="/error"
         button-text="Learn More"
         image-src="team/peace-signs.webp"
         image-alt="Blacksuits Lineup"
