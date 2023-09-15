@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-end gap-2 px-4 sm:px-8">
+  <div class="flex flex-col items-end gap-2 px-4 sm:px-8 mb-20">
     <section-title title="ABOUT US" />
     <div
       class="flex flex-col gap-5 items-end w-full sm:w-2/3 lg:w-1/2 transition-all"

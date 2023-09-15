@@ -1,11 +1,11 @@
 <template>
-  <div class="flex flex-col items-end gap-2 mb-5">
+  <div class="flex flex-col items-end gap-2">
     <div class="flex flex-col items-end mx-4 sm:mx-8">
       <SectionTitle title="OPERATIONS" />
     </div>
     <div
       class="flex flex-col sm:flex-row transition-all w-screen z-30 bg-black"
-      style="height: 600px"
+      style="height: 800px"
     >
       <div class="flex flex-wrap w-full sm:w-1/3 h-full">
         <NuxtLink

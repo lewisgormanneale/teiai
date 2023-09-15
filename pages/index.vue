@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col w-full">
     <IndexHero />
-    <div class="flex flex-col w-full items-end gap-20">
+    <div class="flex flex-col w-full items-end">
       <IndexAbout />
       <IndexOperations />
       <IndexTeam />
