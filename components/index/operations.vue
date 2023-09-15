@@ -22,7 +22,7 @@
           >
             <h2 class="text-2xl font-bold">FINANCIAL CONSULTANCY</h2>
             <span class="text-sm hidden group-hover:block group-hover:fade-in">
-              Debt solutions text that goes on for a little while
+              Providing the best financial advice for our clients
             </span>
           </div>
         </NuxtLink>
@@ -40,7 +40,7 @@
           >
             <h2 class="text-2xl font-bold">MINING & CONSTRUCTION</h2>
             <span class="text-sm hidden group-hover:block group-hover:fade-in">
-              Debt solutions text that goes on for a little while
+              Building a future for our most esteemed clients
             </span>
           </div>
         </NuxtLink>
@@ -60,7 +60,7 @@
           >
             <h2 class="text-2xl font-bold">DEBT RELIEF SOLUTIONS</h2>
             <span class="text-sm hidden group-hover:block group-hover:fade-in">
-              Debt solutions text that goes on for a little while
+              Fair and equitable solutions for all
             </span>
           </div>
         </NuxtLink>
@@ -80,7 +80,7 @@
           >
             <h2 class="text-2xl font-bold">EVENTS</h2>
             <span class="text-sm hidden group-hover:block group-hover:fade-in">
-              Debt solutions text that goes on for a little while
+              Creating memories that last a lifetime
             </span>
           </div>
         </NuxtLink>
@@ -98,7 +98,7 @@
           >
             <h2 class="text-2xl font-bold">CASINOS</h2>
             <span class="text-sm hidden group-hover:block group-hover:fade-in">
-              Debt solutions text that goes on for a little while
+              State-of-the-art facilities containing unparelleled experiences
             </span>
           </div>
         </NuxtLink>
