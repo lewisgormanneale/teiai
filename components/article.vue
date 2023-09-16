@@ -15,14 +15,13 @@ defineProps<{
     style="max-width: 400px"
   >
     <div class="mb-4">
-      <nuxt-img
+      <img
         :src="imageSrc"
-        format="webp"
+        :alt="imageAlt"
         width="400"
         height="300"
-        :alt="imageAlt"
         loading="lazy"
-      ></nuxt-img>
+      />
     </div>
     <h1 class="font-bold text-xl mb-2 px-4">
       {{ title }}

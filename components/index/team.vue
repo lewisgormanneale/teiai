@@ -1,6 +1,7 @@
 <script setup>
 import blacksuitsManga from "~/assets/images/team/blacksuits-manga.webp";
 import hyodoResting from "~/assets/images/team/hyodo-resting.webp";
+import peaceSigns from "~/assets/images/team/peace-signs.webp";
 </script>
 <template>
   <div class="fle x flex-col items-end gap-2 mb-5 py-10 w-full">
@@ -21,7 +22,7 @@ import hyodoResting from "~/assets/images/team/hyodo-resting.webp";
         description="Join Teiai Group today!"
         href="/error"
         button-text="Learn More"
-        image-src="team/hyodo-resting.webp"
+        :image-src="hyodoResting"
         image-alt="Hyodo Resting"
       />
       <Article
@@ -29,7 +30,7 @@ import hyodoResting from "~/assets/images/team/hyodo-resting.webp";
         description="Board Members and Executives"
         href="/error"
         button-text="Learn More"
-        image-src="team/peace-signs.webp"
+        :image-src="peaceSigns"
         image-alt="Peace Signs"
       />
     </div>

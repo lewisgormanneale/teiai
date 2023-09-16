@@ -22,6 +22,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   image: {
     dir: "assets/images",
+    inject: true,
   },
   googleFonts: {
     families: {

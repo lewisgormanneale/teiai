@@ -1,5 +1,6 @@
 <script setup>
 import teiaiBuilding from "~/assets/images/news/teiai-building.webp";
+import wantedPoster from "~/assets/images/news/wanted-poster.webp";
 </script>
 <template>
   <div class="flex flex-col items-end gap-2 pt-10 w-full">
@@ -20,7 +21,7 @@ import teiaiBuilding from "~/assets/images/news/teiai-building.webp";
         description="Teiai Group is currently seeking the whereabouts of the following individuals"
         href="/error"
         button-text="Learn More"
-        image-src="news/wanted-poster.webp"
+        :image-src="wantedPoster"
         image-alt="Wanted Poster"
       />
     </div>
