@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineProps<{
   title: string;
-  imageSrc: string;
+  imageSrc: any;
   imageAlt: string;
   href: string;
   buttonText: string;

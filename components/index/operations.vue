@@ -1,3 +1,10 @@
+<script setup>
+import building from "~/assets/images/operations/building.webp";
+import cruiseShip from "~/assets/images/operations/cruise-ship.webp";
+import pachinko from "~/assets/images/operations/pachinko.webp";
+import undergroundMine from "~/assets/images/operations/underground-mine.webp";
+import yen from "~/assets/images/operations/yen.webp";
+</script>
 <template>
   <div class="flex flex-col items-end gap-2">
     <div class="flex flex-col items-end mx-4 sm:mx-8">
@@ -11,11 +18,8 @@
         <NuxtLink
           to="error"
           class="group flex flex-col items-center justify-center transition-all w-full h-1/2 text-center overflow-hidden relative"
-          style="
-            background-image: url('images/operations/building.webp');
-            background-repeat: no-repeat;
-            background-size: cover;
-          "
+          :style="{ backgroundImage: `url(${building})` }"
+          style="background-repeat: no-repeat; background-size: cover"
         >
           <div
             class="flex flex-col w-full h-full items-center justify-center hover:backdrop-blur-md transition-all"
@@ -29,11 +33,8 @@
         <NuxtLink
           to="error"
           class="group flex flex-col items-center justify-center transition-all w-full h-1/2 text-center overflow-hidden relative"
-          style="
-            background-image: url('images/operations/underground-mine.webp');
-            background-repeat: no-repeat;
-            background-size: cover;
-          "
+          :style="{ backgroundImage: `url(${undergroundMine})` }"
+          style="background-repeat: no-repeat; background-size: cover"
         >
           <div
             class="flex flex-col w-full h-full items-center justify-center hover:backdrop-blur-md transition-all"
@@ -49,11 +50,8 @@
         <NuxtLink
           to="error"
           class="group flex flex-col items-center justify-center transition-all w-full h-full text-center overflow-hidden relative"
-          style="
-            background-image: url('images/operations/yen.webp');
-            background-repeat: no-repeat;
-            background-size: cover;
-          "
+          :style="{ backgroundImage: `url(${yen})` }"
+          style="background-repeat: no-repeat; background-size: cover"
         >
           <div
             class="flex flex-col w-full h-full items-center justify-center hover:backdrop-blur-md transition-all"
@@ -69,11 +67,8 @@
         <NuxtLink
           to="error"
           class="group flex flex-col items-center justify-center transition-all w-full h-1/2 text-center overflow-hidden relative"
-          style="
-            background-image: url('images/operations/cruise-ship.webp');
-            background-repeat: no-repeat;
-            background-size: cover;
-          "
+          :style="{ backgroundImage: `url(${cruiseShip})` }"
+          style="background-repeat: no-repeat; background-size: cover"
         >
           <div
             class="flex flex-col w-full h-full items-center justify-center hover:backdrop-blur-md transition-all"
@@ -87,11 +82,8 @@
         <NuxtLink
           to="error"
           class="group flex flex-col items-center justify-center transition-all w-full h-1/2 text-center overflow-hidden relative"
-          style="
-            background-image: url('images/operations/pachinko.webp');
-            background-repeat: no-repeat;
-            background-size: cover;
-          "
+          :style="{ backgroundImage: `url(${pachinko})` }"
+          style="background-repeat: no-repeat; background-size: cover"
         >
           <div
             class="flex flex-col w-full h-full items-center justify-center hover:backdrop-blur-md transition-all"

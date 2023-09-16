@@ -1,3 +1,6 @@
+<script setup>
+import teiaiBuilding from "~/assets/images/news/teiai-building.webp";
+</script>
 <template>
   <div class="flex flex-col items-end gap-2 pt-10 w-full">
     <div class="flex flex-col items-end mx-4 sm:mx-8">
@@ -5,8 +8,8 @@
     </div>
     <div
       class="flex gap-6 flex-wrap items-center justify-end p-5 bg-zinc-900 w-full"
+      :style="{ backgroundImage: `url(${teiaiBuilding})` }"
       style="
-        background-image: url('images/news/teiai-building.webp');
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: multiply;

@@ -1,3 +1,8 @@
+<script setup>
+import goldWebm from "~/assets/videos/gold.webm";
+import goldMp4 from "~/assets/videos/gold.mp4";
+import teiaiLogoW from "~/assets/images/teiai-logo-w.svg";
+</script>
 <template>
   <video
     autoplay
@@ -5,16 +10,15 @@
     muted
     playsinline
     class="w-full object-initial transition-all fade-in"
+    :style="{ maskImage: `url(${teiaiLogoW})` }"
     style="
-      mask-image: url(images/teiai-logo-w.svg);
       mask-repeat: no-repeat;
       mask-size: cover;
-      -webkit-mask-image: url(images/teiai-logo-w.svg);
       -webkit-mask-repeat: no-repeat;
       -webkit-mask-size: cover;
     "
   >
-    <source src="videos/gold.webm" type="video/webm" />
-    <source src="videos/gold.mp4" type="video/mp4" />
+    <source :src="goldWebm" type="video/webm" />
+    <source :src="goldMp4" type="video/mp4" />
   </video>
 </template>
