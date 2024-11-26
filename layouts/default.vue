@@ -2,7 +2,7 @@
   <div>
     <Header/>
     <div class="flex-1 bg-background">
-      <main class="container">
+      <main>
         <slot/>
       </main>
     </div>

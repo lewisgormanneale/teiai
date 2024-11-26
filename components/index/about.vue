@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+import {Button} from '@/components/ui/button'
+</script>
+
 <template>
   <div class="flex flex-col items-end gap-2 px-4 sm:px-8 mb-20">
     <section-title title="ABOUT US"/>
