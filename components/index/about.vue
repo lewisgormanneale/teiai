@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col items-end gap-2 px-4 sm:px-8 mb-20">
-    <section-title title="ABOUT US" />
+    <section-title title="ABOUT US"/>
     <div
-      class="flex flex-col gap-5 items-end w-full sm:w-2/3 lg:w-1/2 transition-all"
+        class="flex flex-col gap-5 items-end w-full sm:w-2/3 lg:w-1/2 transition-all"
     >
       <p class="text-right w-7/8">
         TEIAI GROUP - a dynamic financial consultancy dedicated to helping our
@@ -16,8 +16,7 @@
         Join us in experiencing the dedication and excellence that define
         Teiai's approach to finance.
       </p>
-
-      <Button href="/error" text="Learn More" />
+      <Button variant="link">Learn More</Button>
     </div>
   </div>
 </template>

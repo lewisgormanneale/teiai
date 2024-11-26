@@ -1,7 +1,8 @@
 <template>
   <div class="overflow-x-hidden">
-    <Header />
-    <NuxtPage />
-    <Footer />
+    <NuxtLoadingIndicator :height="2" style="opacity: 1;"/>
+    <NuxtLayout>
+      <NuxtPage/>
+    </NuxtLayout>
   </div>
 </template>
